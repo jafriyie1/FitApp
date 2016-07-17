@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EA62FD561989F6AC00469896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD551989F6AC00469896 /* AppDelegate.swift */; };
 		EA62FD581989F6AC00469896 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA62FD571989F6AC00469896 /* Images.xcassets */; };
-		EA62FD641989F6AC00469896 /* SwiftLoginScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD631989F6AC00469896 /* SwiftLoginScreenTests.swift */; };
+		EA62FD641989F6AC00469896 /* FitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62FD631989F6AC00469896 /* FitAppTests.swift */; };
 		EA62FD6F1989F6E300469896 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA62FD6E1989F6E300469896 /* Storyboard.storyboard */; };
 		EAA118A5198A1BF000F443F1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA118A4198A1BF000F443F1 /* HomeVC.swift */; };
 		EAA118A7198A23CB00F443F1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA118A6198A23CB00F443F1 /* LoginVC.swift */; };
@@ -22,7 +22,7 @@
 			containerPortal = EA62FD481989F6AC00469896 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EA62FD4F1989F6AC00469896;
-			remoteInfo = SwiftLoginScreen;
+			remoteInfo = FitApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -33,7 +33,7 @@
 		EA62FD571989F6AC00469896 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA62FD5D1989F6AC00469896 /* FitApp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitApp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA62FD621989F6AC00469896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA62FD631989F6AC00469896 /* SwiftLoginScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoginScreenTests.swift; sourceTree = "<group>"; };
+		EA62FD631989F6AC00469896 /* FitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitAppTests.swift; sourceTree = "<group>"; };
 		EA62FD6E1989F6E300469896 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EAA118A4198A1BF000F443F1 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		EAA118A6198A23CB00F443F1 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				EA62FD521989F6AC00469896 /* FitApp */,
-				EA62FD601989F6AC00469896 /* SwiftLoginScreenTests */,
+				EA62FD601989F6AC00469896 /* FitAppTests */,
 				EA62FD511989F6AC00469896 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 				EAA118A8198AAC7100F443F1 /* SignupVC.swift */,
 			);
 			name = FitApp;
-			path = SwiftLoginScreen;
+			path = FitApp;
 			sourceTree = "<group>";
 		};
 		EA62FD531989F6AC00469896 /* Supporting Files */ = {
@@ -99,13 +99,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EA62FD601989F6AC00469896 /* SwiftLoginScreenTests */ = {
+		EA62FD601989F6AC00469896 /* FitAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA62FD631989F6AC00469896 /* SwiftLoginScreenTests.swift */,
+				EA62FD631989F6AC00469896 /* FitAppTests.swift */,
 				EA62FD611989F6AC00469896 /* Supporting Files */,
 			);
-			path = SwiftLoginScreenTests;
+			path = FitAppTests;
 			sourceTree = "<group>";
 		};
 		EA62FD611989F6AC00469896 /* Supporting Files */ = {
@@ -132,7 +132,7 @@
 			dependencies = (
 			);
 			name = FitApp;
-			productName = SwiftLoginScreen;
+			productName = FitApp;
 			productReference = EA62FD501989F6AC00469896 /* FitApp.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -150,7 +150,7 @@
 				EA62FD5F1989F6AC00469896 /* PBXTargetDependency */,
 			);
 			name = FitAppTests;
-			productName = SwiftLoginScreenTests;
+			productName = FitAppTests;
 			productReference = EA62FD5D1989F6AC00469896 /* FitApp.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -226,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA62FD641989F6AC00469896 /* SwiftLoginScreenTests.swift in Sources */,
+				EA62FD641989F6AC00469896 /* FitAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = SwiftLoginScreen/Info.plist;
+				INFOPLIST_FILE = FitApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelcole;
@@ -337,7 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = SwiftLoginScreen/Info.plist;
+				INFOPLIST_FILE = FitApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joelcole;
@@ -349,7 +349,7 @@
 		EA62FD6B1989F6AC00469896 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftLoginScreen.app/SwiftLoginScreen";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FitApp.app/FitApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -358,7 +358,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftLoginScreenTests/Info.plist;
+				INFOPLIST_FILE = FitAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = FitApp;
@@ -369,12 +369,12 @@
 		EA62FD6C1989F6AC00469896 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftLoginScreen.app/SwiftLoginScreen";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FitApp.app/FitApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftLoginScreenTests/Info.plist;
+				INFOPLIST_FILE = FitAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = FitApp;
